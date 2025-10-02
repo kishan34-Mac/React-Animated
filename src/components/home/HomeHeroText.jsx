@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const HomeheroText = () => {
+const HomeHeroText = () => {
   return (
-    <div className='h-screen w-screen bg-red-900 '>
-      
+    <div>
+      <h1>Hi</h1>
     </div>
-  )
-}
+  );
+};
 
-export default HomeheroText;
+export default HomeHeroText;

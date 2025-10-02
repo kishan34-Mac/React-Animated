@@ -1,17 +1,17 @@
 import React from "react";
-import Video from "../components/home/Video";
+import Video from "../components/home/video";
 import HomeHeroText from "../components/home/HomeHeroText";
 import HomeBottomText from "../components/home/HomeBottomText";
 
 const Home = () => {
   return (
-    <div className="relative h-screen w-screen">
-      <div className="fixed top-0 left-0 h-screen w-screen z-0">
+    <div>
+      <div className="h-screen w-screen fixed">
         <Video />
       </div>
-      <div className="relative z-10 flex flex-col items-center justify-center h-screen w-screen">
-        <HomeBottomText />
+      <div className=" h-screen w-screen relative flex flex-col">
         <HomeHeroText />
+        <HomeBottomText />
       </div>
     </div>
   );
