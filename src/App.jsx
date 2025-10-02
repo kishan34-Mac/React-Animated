@@ -1,7 +1,18 @@
-export default function App() {
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+import Agence from "./pages/Agence";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+
+const App = () => {
   return (
-    <div className="bg-red-500 text-white p-6 rounded-lg">
-      Tailwind is working 🎉
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/agence" element={<Agence />} />
+      <Route path="/projects" element={<Projects />} />
+    </Routes>
   );
-}
+};
+
+export default App;
