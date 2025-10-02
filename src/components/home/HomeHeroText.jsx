@@ -8,4 +8,4 @@ const HomeheroText = () => {
   )
 }
 
-export default HomeheroText
+export default HomeheroText;
