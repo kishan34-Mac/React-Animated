@@ -9,4 +9,3 @@ const HomeheroText = () => {
 }
 
 export default HomeheroText
-
