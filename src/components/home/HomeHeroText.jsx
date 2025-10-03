@@ -3,7 +3,9 @@ import React from "react";
 const HomeHeroText = () => {
   return (
     <div>
-      <h1>Hi</h1>
+      <div>L'étincelle</div>
+      <div>quigénère</div>
+      <div>la créativité</div>
     </div>
   );
 };
